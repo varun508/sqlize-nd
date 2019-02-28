@@ -1,0 +1,30 @@
+{
+  "name": "sqlize-nd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "mysql2": "^1.6.5",
+    "nodemon": "^1.18.10",
+    "sequelize": "^4.42.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "dev":"nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varun508/sqlize-nd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/varun508/sqlize-nd/issues"
+  },
+  "homepage": "https://github.com/varun508/sqlize-nd#readme"
+}
